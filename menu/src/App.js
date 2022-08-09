@@ -1,11 +1,13 @@
 import './App.css';
-import Layout from "./Pages/Layout";
+import Direct from "./Pages/Direct";
+
 
 function App() {
   return (
-    <div className="App">
-     <Layout> </Layout>
+    <div className="App"> 
+    <Direct> </Direct>
     </div>
+    
   );
 }
 
