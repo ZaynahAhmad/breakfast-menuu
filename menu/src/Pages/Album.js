@@ -21,7 +21,7 @@ function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       {'Copyright © '}
       <Link color="inherit" href="https://mui.com/">
-        Your Website
+        Zay's Website
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -72,10 +72,7 @@ export default function Album() {
               spacing={3}
               justifyContent="center"
             >
-              <Button variant="outlined">All Items</Button>
-              <Button variant="outlined">Desserts</Button>
-              <Button variant="outlined">Sandwichs</Button>
-              <Button variant="outlined">Shakes/Refreshers</Button>
+              
             </Stack>
           </Container>
         </Box>
@@ -91,21 +88,20 @@ export default function Album() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+         Vanilla Cupcakes
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        Cupcakes continue to be popular treat, whether made at home or purchased at a store. Their small size makes them appealing to people who want to eat some cake, but don’t want to purchase an entire cake.                                                                                                         
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Add To Cart</Button>
+        <Button size="small">Deals</Button>
       </CardActions>
     </Card>
         </Grid>
         <Grid item xs={6} md={4}>
-        <Card sx={{ maxWidth: 245 }}>
+        <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="140"
@@ -114,11 +110,32 @@ export default function Album() {
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Chocolate Cakepops
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        A small round piece of cake coated with icing or chocolate and fixed on the end of a stick-resembling a lollipop.
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Add To Cart</Button>
+        <Button size="small">Deals</Button>
+      </CardActions>
+    </Card>
+        </Grid>
+        <Grid item xs={6} md={4}>
+        <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://th.bing.com/th/id/OIP.mvIB97BCJ4v5Rgth8dIUKQHaHa?pid=ImgDet&rs=1"
+        alt="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Red Velvet Cake
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        A red, red-brown, crimson, or scarlet-colored chocolate layer cake, layered with ermine icing
         </Typography>
       </CardContent>
       <CardActions>
@@ -132,21 +149,20 @@ export default function Album() {
       <CardMedia
         component="img"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image="https://photos-cdn.catchmyparty.com/PL/photos/0055/2035/770.jpg"
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+         Red Velvet Cakepops
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        A small round piece of cake coated with icing or chocolate and fixed on the end of a stick-resembling a lollipop.
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button size="small">Add To Cart</Button>
+        <Button size="small">Deal</Button>
       </CardActions>
     </Card>
         </Grid>
@@ -155,16 +171,38 @@ export default function Album() {
       <CardMedia
         component="img"
         height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        image="https://th.bing.com/th/id/OIP.9RbSHAR7qKvA9fVd_Bt-2AHaHa?pid=ImgDet&rs=1"
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          Marble Cake
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        A mixture of vanilla and chocolate cake, in which case it is mainly vanilla, with streaks of chocolate
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+
+      </CardActions>
+    </Card>
+        </Grid>
+        <Grid item xs={6} md={4}>
+        <Card sx={{ maxWidth: 345 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image="https://th.bing.com/th/id/R.292caa85167a80ea5d1fd0a7237e1bb7?rik=Bav6%2bXI3u%2fIGKg&pid=ImgRaw&r=0"
+        alt="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          7 Up Cake
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        The cake is already fantastic on its own, but it’s taken to another level by the sugar glaze.
         </Typography>
       </CardContent>
       <CardActions>
@@ -173,7 +211,9 @@ export default function Album() {
       </CardActions>
     </Card>
         </Grid>
+       
       </Grid>
+
     </Box>
         
 
@@ -189,7 +229,7 @@ export default function Album() {
           color="text.secondary"
           component="p"
         >
-          Something here to give the footer a purpose!
+         Yummy Foods
         </Typography>
         <Copyright />
       </Box>
